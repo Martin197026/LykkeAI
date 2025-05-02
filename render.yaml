@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: lykkeai
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run manualchat/app.py
+    plan: free
