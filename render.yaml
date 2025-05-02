@@ -3,5 +3,5 @@ services:
     name: lykkeai
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run manualchat/app.py
+    startCommand: streamlit run app.py
     plan: free
