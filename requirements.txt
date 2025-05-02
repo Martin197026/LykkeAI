@@ -1,7 +1,7 @@
-streamlit
-pymupdf
-faiss-cpu
-sentence-transformers
-numpy
-requests
-passlib[bcrypt]
+streamlit==1.44.1
+sentence-transformers==4.0.2
+faiss-cpu==1.10.0
+numpy==2.2.1
+PyMuPDF==1.25.5
+requests==2.32.3
+passlib==1.7.4
